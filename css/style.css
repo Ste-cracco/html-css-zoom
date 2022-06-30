@@ -10,7 +10,6 @@ img {
 
 .flex {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .flex_column {
@@ -18,33 +17,36 @@ img {
     flex-direction: column;
 }
 
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .main_container {
     background-color: black;
-    flex-basis: 0;
-    flex-grow: 1;
+    height: 100vh;
+    
 }
 
 .container_card {
     width: 90%;
+    height: 100%;
     margin: auto;
-    /* height: calc(100vh - 80px); */
     padding-top: 80px;
     padding-bottom: 25px;
-    gap: 16px;
-}
-
-.raw {
-    width: 100%;
-    gap: 10px;
+    gap: 15px;
+    overflow: scroll;
 }
 
 .card {
-    display: flex;
-    flex-basis: 0;
-    flex-grow: 1;
+    width: calc(calc(100% - 105px) / 7);
 }
 
 .footer_container {
     background-color: #222222;
-    height: 80px;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
