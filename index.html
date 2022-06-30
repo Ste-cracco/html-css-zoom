@@ -12,13 +12,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="main_container flex"> 
-        <div class="container_button flex">
+    <div class="main_container flex"> <!--Contenitore principale-->
+        <div class="container_button flex"> <!--Contenitore bottoni in alto a sinistra-->
             <span class="button_speaker_view"><i class="fa-solid fa-maximize"></i> Speaker View </span>
             <span class="button_speaker_view"><i class="fa-solid fa-maximize"></i></span>
         </div> 
 
-        <div class="container_card flex_wrap">
+        <div class="container_card flex_wrap"> <!--Contenitore card-->
             <div class="card">
                 <img src="https://picsum.photos/300/200" alt="">
                 <div class="pinco_pallo">
@@ -231,7 +231,80 @@
             </div>
         </div>  <!--Chiusura Container Card -->
         
-        <footer class="footer_container">
+        <!-- FOOTER -->
+        <footer class="footer_container flex">
+            <div class="container_icone_sinistra flex"> <!-- Container icone a sinistra-->
+                <div class="container_icon flex"> <!-- Container singola icona-->
+                    <div class="icon flex_column"> 
+                        <i class="fa-solid fa-microphone flex_column"></i>
+                        <span>Mute</span>
+                    </div>
+                    <div class="freccia_icon">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </div>
+                </div>
+                <div class="container_icon flex"> <!-- Container singola icona-->
+                    <div class="icon flex_column"> 
+                        <i class="fa-solid fa-video"></i>
+                        <span>Mute</span>
+                    </div>
+                    <div class="freccia_icon">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </div>
+                </div>               
+            </div>
+
+            <div class="container_icone_centrali flex">
+                <div class="container_icon flex"> <!-- Container singola icona-->
+                    <div class="icon flex_column"> 
+                        <i class="fa-solid fa-user-plus"></i>
+                        <span>Invite</span>
+                    </div>
+                </div>
+                <div class="container_icon flex"> <!-- Container singola icona-->
+                    <div class="icon flex_column"> 
+                        <i class="fa-solid fa-user-group"></i>
+                        <span>Manage Partecipans</span>
+                    </div>
+                </div>
+                <div class="container_icon flex"> <!-- Container singola icona-->
+                    <div class="icon flex_column"> 
+                        <i class="fa-solid fa-chart-column"></i>
+                        <span>Polling</span>
+                    </div>
+                </div>
+                <div class="container_icon flex" id="green_icon"> <!-- Container singola icona + freccia-->
+                    <div class="icon flex_column"> 
+                        <i class="fa-solid fa-share-from-square"></i>
+                        <span>Share Screen</span>
+                    </div>
+                    <div class="freccia_icon" id="arrow_white">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </div>
+                </div>  
+                <div class="container_icon flex"> <!-- Container singola icona-->
+                    <div class="icon flex_column"> 
+                        <i class="fa-solid fa-comment"></i>
+                        <span>Chat</span>
+                    </div>
+                </div> 
+                <div class="container_icon flex"> <!-- Container singola icona-->
+                    <div class="icon flex_column"> 
+                        <i class="fa-solid fa-record-vinyl"></i>
+                        <span>Record</span>
+                    </div>
+                </div> 
+                <div class="container_icon flex"> <!-- Container singola icona-->
+                    <div class="icon flex_column"> 
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <span>More</span>
+                    </div>
+                </div>                 
+            </div>
+
+            <div class="button_footer flex"> <!-- Bottone footer-->
+                <span>End Meeting</span>
+            </div>
         </footer>
         
     </div> <!--Chiusura Main Container -->

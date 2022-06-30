@@ -68,6 +68,8 @@ img {
     font-size: 10px;
 }
 
+/* FOOTER */
+
 .footer_container {
     background-color: #222222;
     height: 65px;
@@ -75,4 +77,47 @@ img {
     position: fixed;
     bottom: 0;
     right: 0;
+    color: white;
+    justify-content: space-between;
+}
+
+.container_icon {
+    align-items: center;
+    padding: 0 5px;
+}
+
+.icon {
+    align-items: center;
+    font-size: 25px;
+    gap: 5px;
+    padding-left: 10px;
+}
+
+#green_icon {
+    color: #4BC800;
+}
+
+#arrow_white {
+    padding-right: 0;
+    color: white;
+}
+
+.freccia_icon {
+    font-size: 10px;
+    padding: 0 15px;
+}
+
+.icon span {
+    font-size: 10px;
+}
+
+.button_footer {
+    background-color: #4A4A4A;
+    color: red;
+    width: 100px;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 11px;
+    justify-content: center;
+
 }
