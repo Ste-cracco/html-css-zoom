@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
@@ -25,7 +26,21 @@ img {
 .main_container {
     background-color: black;
     height: 100vh;
-    
+    position: relative;    
+}
+
+.container_button {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    gap: 5px;
+}
+
+.button_speaker_view {
+    background-color: #4A4A4A;  
+    padding: 3px; 
 }
 
 .container_card {
@@ -33,13 +48,24 @@ img {
     height: 100%;
     margin: auto;
     padding-top: 80px;
-    padding-bottom: 25px;
+    padding-bottom: 80px;
     gap: 15px;
     overflow: scroll;
 }
 
 .card {
+    position: relative;
     width: calc(calc(100% - 105px) / 7);
+}
+
+.pinco_pallo {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 6px;
+    font-size: 10px;
 }
 
 .footer_container {
